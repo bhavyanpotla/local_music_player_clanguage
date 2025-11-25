@@ -44,26 +44,11 @@ This project demonstrates core software engineering concepts:
 gcc main.c -o naasongs
 ./naasongs
 naasongs.exe
------------------------
 
 
-### Advantages (Pros)
+ 
 
-Simple & lightweight
 
-Fast execution due to C efficiency
 
-Structured storage using Song records
 
-Easy to use — intuitive UI
-
-Good real world use-case demonstration
-
-Teaches file handling & persistent storage
-
-ID-based fast lookup
-
-Extremely small program size
-
-Clean modular functions
-
+ 
