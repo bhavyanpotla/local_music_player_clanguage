@@ -1,6 +1,6 @@
 # Abstract
 NaaSongs — Naa Istam is a CLI-based music management system built in C for organizing and playing local songs using ID-based indexing. It demonstrates practical C concepts such as file handling, structs, and terminal interaction. The project is lightweight, efficient, and maintains a persistent music database across runs.
-#  {NaaSongs — Naa Istam}  
+#  [LOCAL MUSIC PLAYER]
 ### A Terminal-Based Music Database & Player in C  
 
 NaaSongs — Naa Istam is a command-line music management system implemented in C, designed to simulate a playlist controller similar to a simplified Spotify/Media Manager. It supports interactive song management and playback control directly from the terminal interface using a unique ID-based system.
@@ -109,12 +109,24 @@ Running the Project in VS Code
  C/C++ extension
  MinGW or GCC compiler
  Windows OS
+ 
+ Windows (MinGW / GCC):
+gcc main.c -o music.exe
+music.exe
 
-2. Create Project Folder
-NaaSongs/
-   main.c
+If you have multiple C files (example):
+gcc *.c -o music
 
-3. Open Folder in VS Code
+⚠️ Important Notes
+
+Ensure songs.dat and song_id.dat are in the same folder as your program.
+
+On Windows, songs must be stored with full path, for example:
+
+C:\Users\Teja\Downloads\song.mp3
+
+ 
+2. Open Folder in VS Code
 
 File → Open Folder → select NaaSongs
 ## Security & Stability Notes
@@ -159,6 +171,7 @@ File → Open Folder → select NaaSongs
 
  ### 6.play song
  <img width="1888" height="963" alt="image" src="https://github.com/user-attachments/assets/60703159-1c3c-44be-a045-b939266eea1e" />
+
 
 
 
