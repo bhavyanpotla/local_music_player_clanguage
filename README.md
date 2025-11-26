@@ -122,16 +122,23 @@ File → Open Folder → select NaaSongs
 ### Advantages
 
  Data never erased unless user deletes manually
+ 
  Low memory usage
+ 
  Fast sequential I/O
+ 
  Clean modular functions
 
 ### Limitations
 
  Works only on Windows (due to start "")
+ 
  gets() unsafe for production
+ 
  No duplicate file prevention
+ 
  No space validation for extremely long paths
+ 
  Playback depends on Windows file associations
  
 
