@@ -127,9 +127,7 @@ On Windows, songs must be stored with full path, for example:
 C:\Users\Teja\Downloads\song.mp3
 
  
-2. Open Folder in VS Code
-
-File → Open Folder → select NaaSongs
+ 
 ## Security & Stability Notes
 
 ### Advantages
