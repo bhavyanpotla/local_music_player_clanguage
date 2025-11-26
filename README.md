@@ -111,8 +111,9 @@ Running the Project in VS Code
  Windows OS
  
  Windows (MinGW / GCC):
-gcc main.c -o music.exe
-music.exe
+#### gcc main.c -o music.exe
+
+#### music.exe
 
 If you have multiple C files (example):
 gcc *.c -o music
