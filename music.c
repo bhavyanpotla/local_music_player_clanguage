@@ -87,7 +87,7 @@ void addSong() {
     printf("Enter Artist: ");
     gets(s.artist);
 
-    printf("Enter FULL file path (example: C:\\Users\\Teja\\Downloads\\song.mp3):\n");
+    printf("Enter FULL file path (example: C:\\Users\\Bhavyan\\Downloads\\song.mp3):\n");
     gets(s.path);
 
     fwrite(&s, sizeof(s), 1, fp);
@@ -259,3 +259,4 @@ void playSong() {
     if (!found)
         printf("Song not found!\n");
 }
+
